@@ -21,11 +21,22 @@ button {
     border: 1px solid transparent;
     border-radius: 4px;
     padding: 20px;
-
+    width: 12rem;
+    font-size: 1.1rem;
 }
 
 .button-normal {
     background-color: lightblue;
+    color: black;
+}
+
+.button-confirm {
+    background-color: lightgreen;
+    color: black;
+}
+
+.button-input {
+    background-color: lightsalmon;
     color: black;
 }
 
@@ -35,20 +46,30 @@ button {
     color: white;
 }
 
+.button-confirm:active {
+    border: 1px solid whitesmoke;
+    background-color: rgb(83, 173, 83);
+    color: white;
+}
+
+.button-input:active {
+    border: 1px solid whitesmoke;
+    background-color: rgb(212, 107, 66);
+    color: white;
+}
+
 button:hover {
     border: 1px solid lightgray;
 }
 
 /* dialog styles */
-/* alert - normal dialog */
-
 /* Estilo del cuadro de diálogo */
 dialog#miDialogo {
     margin: 0;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 14px;
+    padding: 14px 34px;
     width: 400px;
     max-width: 420px;
     position: fixed;
@@ -58,8 +79,8 @@ dialog#miDialogo {
     user-select: none;
 }
   
-  /* Estilo del encabezado */
-  dialog#miDialogo h2 {
+/* Estilo del encabezado */
+dialog#miDialogo h2 {
     margin: 0;
     padding: 0;
     font-size: 20px;
@@ -68,28 +89,29 @@ dialog#miDialogo {
     text-align: left;
 }
 
-  dialog#miDialogo p {
+dialog#miDialogo p {
     color: #333;
     text-align: left;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
     text-align: justify;
 }
 
-  dialog#miDialogo input {
-    padding-top: -60px;
+dialog#miDialogo input {
     display: block;
     width: 100%;
-    height: 24px;
+    height: 32px;
     color: #333;
+    margin-bottom: 40px;
     background-color: white;
-    border-color: transparent;
+    border-width: 0.5px;
+    border-color: lightgray;
     text-align: justify;
 }
 
   /* Estilo del botón */
-  dialog#miDialogo button {
+dialog#miDialogo button {
     margin: 0;
-    padding: 10px 10px;
+    padding: 10px;
     font-size: 16px;
     font-weight: normal;
     color: #333;
@@ -99,9 +121,9 @@ dialog#miDialogo {
     position: relative;
     bottom: 14px;
     float: inline-end;
-    width: 80px;
+    width: 100px;
     margin-left: 10px;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
 }
 
 dialog#miDialogo button:hover {
@@ -116,5 +138,5 @@ dialog#miDialogo button:active {
 
   /* Efecto backdrop */
   dialog#miDialogo::backdrop {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
