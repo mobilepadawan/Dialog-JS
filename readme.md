@@ -6,9 +6,9 @@ Dialog-JS also allows developers to integrate their own CSS styles to customize 
 ## Table of Contents
 1) [Setup the library](setup-the-library)
     * [Hands on](hands-on)
-    * [Dialog Alert](Dialog.alert())
-    * [Dialog Confirm](Dialog.confirm())
-    * [Dialog Prompt](Dialog.prompt())
+    * [Dialog Alert](dialog-alert)
+    * [Dialog Confirm](dialog-confirm)
+    * [Dialog Prompt](dialog-prompt)
 2) [About](about)
 
 ### Setup the library
