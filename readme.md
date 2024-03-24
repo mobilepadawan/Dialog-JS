@@ -5,10 +5,9 @@ Dialog-JS also allows developers to integrate their own CSS styles to customize 
 
 ## Table of Contents
 1) [Setup the library](#setup-the-library)
-    * [Hands on](#hands-on)
-    * [Dialog Alert](#dialog-alert)
-    * [Dialog Confirm](#dialog-confirm)
-    * [Dialog Prompt](#dialog-prompt)
+    * [Dialog Alert](#dialogalert)
+    * [Dialog Confirm](#dialogconfirm)
+    * [Dialog Prompt](#dialogprompt)
 2) [About](#about)
 
 ### Setup the library
@@ -19,9 +18,8 @@ To use `Dialog-JS` in your project, you can simply include the `dialog.js` and `
 <link rel="stylesheet" href="dialog.css">
 ```
 
-### Hands on
 
-#### Dialog.alert()
+### Dialog.alert()
 Create an alert dialog with a custom title, message, and button text by passing a literal object with each property expected. Do not forget to declare any property.
 
 ```javascript
@@ -32,7 +30,7 @@ Dialog.alert({
 });
 ```
 
-#### Dialog.confirm()
+### Dialog.confirm()
 Create a confirmation dialog with a custom title, message, and the text of the buttons for confirmation and cancellation. You can also specify a callback function to execute when the confirmation button is clicked.
 
 ```javascript
@@ -48,7 +46,8 @@ Dialog.confirm({
 });
 ```
 
-#### Dialog.prompt()
+### Dialog.prompt()
+
 Create a prompt dialog with a custom title, message, input placeholder, and buttons for confirmation and cancellation. You can also specify a callback function to receive the input value when confirmed.
 
 ```javascript
@@ -66,6 +65,7 @@ Dialog.prompt({
 ```
 
 ## About
+
 Dialog-JS is a simple yet effective JavaScript library developed by `Fernando Omar Luna 🇦🇷`. It aims to provide developers with an easy way to create customizable dialog boxes for their web projects. 
 
 Feel free to follow Fernando on (X) **[@mobilepadawan](https://www.x.com/mobilepadawan)** to say hi or send feedback about Dialog-JS.
