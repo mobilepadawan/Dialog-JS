@@ -3,6 +3,8 @@ Dialog-JS is a lightweight JavaScript library for creating customizable dialog b
 
 Dialog-JS also allows developers to integrate their own CSS styles to customize the appearance of the dialogs according to their project needs.
 
+Please visit [Dialog-JS website](https://mobilepadawan.github.io/Dialog-js/) for a quick testing.
+
 ## Table of Contents
 1) [Setup the library](#setup-the-library)
     * [Dialog Alert](#dialogalert)
