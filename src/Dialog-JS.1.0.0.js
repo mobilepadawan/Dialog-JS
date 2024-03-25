@@ -5,7 +5,9 @@ class Dialog {
         dialogo.setAttribute("id", "myDialog")
         let contenidoTemplate = `<h2>${title}</h2>
                                  <p>${text}</p>
-                                 <button class="button-primary" id="dialogDefaultButton">${buttonText}</button>`
+                                 <div class="button-container">
+                                    <button class="button button-primary" id="dialogDefaultButton">${buttonText}</button>
+                                 </div>`
         dialogo.innerHTML = contenidoTemplate
         dialogo.querySelector("button#dialogDefaultButton").addEventListener("click", ()=> dialogo.remove())
         document.querySelector('body').insertAdjacentElement('afterbegin', dialogo)
@@ -17,8 +19,10 @@ class Dialog {
         dialogo.setAttribute("id", "myDialog")
         let contenidoTemplate = `<h2>${title}</h2>
                                  <p>${text}</p>
-                                 <button class="button-primary" id="confirmDefaultButton">${defaultButtonText}</button>
-                                 <button class="button-secondary" id="confirmCancelButton">${cancelButtonText}</button>`
+                                 <div class="button-container">
+                                    <button class="button button-primary" id="confirmDefaultButton">${defaultButtonText}</button>
+                                    <button class="button button-secondary" id="confirmCancelButton">${cancelButtonText}</button>
+                                 </div>`
         dialogo.innerHTML = contenidoTemplate
         callBackFn && dialogo.querySelector("button#confirmDefaultButton").addEventListener("click", ()=> {
             callBackFn()
@@ -35,8 +39,10 @@ class Dialog {
         let contenidoTemplate = `<h2>${title}</h2>
                                  <p>${text}</p>
                                  <input id="dialogInputElement" type="text" placeholder="${placeholderInput}" autocomplete="off"></input>
-                                 <button class="button-primary" id="promptConfirmButton">${confirmButtonText}</button>
-                                 <button class="button-secondary" id="promptCancelButton">${cancelButtonText}</button>`
+                                 <div class="button-container">
+                                    <button class="button button-primary" id="promptConfirmButton">${confirmButtonText}</button>
+                                    <button class="button button-secondary" id="promptCancelButton">${cancelButtonText}</button>
+                                 </div>`
         myPrompt.innerHTML = contenidoTemplate
         document.querySelector('body').insertAdjacentElement('afterbegin', myPrompt)
         myPrompt.showModal()

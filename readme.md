@@ -8,14 +8,15 @@ Dialog-JS also allows developers to integrate their own CSS styles to customize 
     * [Dialog Alert](#dialogalert)
     * [Dialog Confirm](#dialogconfirm)
     * [Dialog Prompt](#dialogprompt)
-2) [About](#about)
+2) [Styles](#styles)
+3) [About](#about)
 
 ### Setup the library
-To use `Dialog-JS` in your project, you can simply include the `dialog.js` and `dialog.css` files in your HTML file as part of the `<head>` HTML document section. Remember to fix the route of the files in the path.
+To use `Dialog-JS` in your project, you can simply include the `Dialog-JS.1.0.0.min.js` and `dialogjs-default-1.0.0.min.css` files in your HTML file as part of the `<head>` HTML document section. Remember to fix the route of the files in the path.
 
 ```HTML
-<script src="dialog.js"></script>
-<link rel="stylesheet" href="dialog.css">
+<script src="Dialog-JS.1.0.0.min.js"></script>
+<link rel="stylesheet" href="dialogjs-default-1.0.0.min.css">
 ```
 
 
@@ -64,8 +65,15 @@ Dialog.prompt({
 });
 ```
 
+## Styles
+The CSS file linked to this JS library has a couple of alternatives to implement with the Dialog windows CSS styles similar to another frameworks or operating systems.
+* `dialogjs-bootstrap-1.0.0.min.css`
+* `dialogjs-material-1.0.0.min.css`
+* `dialogjs-ios-1.0.0.min.css`
+
 ## About
 
 Dialog-JS is a simple yet effective JavaScript library developed by `Fernando Omar Luna 🇦🇷`. It aims to provide developers with an easy way to create customizable dialog boxes for their web projects. 
 
 Feel free to follow Fernando on (X) **[@mobilepadawan](https://www.x.com/mobilepadawan)** to say hi or send feedback about Dialog-JS.
+

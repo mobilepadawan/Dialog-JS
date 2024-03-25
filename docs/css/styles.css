@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
-@import url("./Dialog-JS-css.1.0.0.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200..800&display=swap');
+@import url("dialogjs-default-1.0.0.css");
 
 html {
     color-scheme: dark;
-    font-family: 'changa', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
 }
 
@@ -17,7 +17,15 @@ body header, main {
 }
 
 header {
+    padding: 10px;
     margin-bottom: 20px;
+    & h1 {
+        display: inline;
+    }
+    & img {
+        width: 40px;
+        float: right;
+    }
 }
 
 main {
