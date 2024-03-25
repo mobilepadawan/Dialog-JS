@@ -43,8 +43,7 @@ Dialog.confirm({
   defaultButtonText: "Yes",
   cancelButtonText: "No",
   callBackFn: () => {
-    // Code to execute on confirmation
-    console.log("Confirmed");
+    console.log("Confirmed");   //this callback is executed when pressing confirmButton
   }
 });
 ```
@@ -61,8 +60,7 @@ Dialog.prompt({
   confirmButtonText: "Submit",
   cancelButtonText: "Cancel",
   callBackFn: (inputValue) => {
-    // Code to execute with input value
-    console.log("Submitted: ", inputValue);
+    console.log("Submitted: ", inputValue);   //this callback is executed when pressing confirmButton
   }
 });
 ```
