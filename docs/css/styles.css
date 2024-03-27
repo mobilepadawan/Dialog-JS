@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200..800&display=swap");
+@import url("dialogjs-default-1.0.0.css");
+/* @import url("dialogjs-bootstrap-1.0.0.css"); */
+/* @import url("dialogjs-ios-1.0.0.css"); */
+/* @import url("dialogjs-material-1.0.0.css"); */
+
+html {
+    color-scheme: dark;
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+body header, main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    padding: 10px;
+    margin-bottom: 20px;
+    & h1 {
+        display: inline;
+    }
+    & img {
+        width: 40px;
+        float: right;
+    }
+}
+
+main {
+    flex-grow: 1
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.card-dialogs {
+    text-align: center;
+    width: 220px;
+    height: 200px;
+    border: 1px solid gray;
+    padding: 16px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.199);
+
+    & button {
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 20px;
+        width: 12rem;
+        font-size: 1.1rem;
+    }
+    
+    & button:hover {
+        border: 1px solid lightgray;
+    }
+    
+    & .button-normal {
+        background-color: lightblue;
+        color: black;
+    }
+    
+    & .button-confirm {
+        background-color: lightgreen;
+        color: black;
+    }
+    
+    & .button-prompt {
+        background-color: lightsalmon;
+        color: black;
+    }
+    
+    & .button-normal:active {
+        border: 1px solid whitesmoke;
+        background-color: rgb(88, 159, 182);
+        color: white;
+    }
+    
+    & .button-confirm:active {
+        border: 1px solid whitesmoke;
+        background-color: rgb(83, 173, 83);
+        color: white;
+    }
+    
+    & .button-prompt:active {
+        border: 1px solid whitesmoke;
+        background-color: rgb(212, 107, 66);
+        color: white;
+    }
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
