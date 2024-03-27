@@ -3,17 +3,17 @@ const btnConfirm = document.querySelector("button.button-confirm")
 const btnPrompt = document.querySelector("button.button-prompt")
 
 function mostrarMensajeCallback() {
-    console.warn("Este es un mensaje CallBack que se dispara luego de pulsar ACEPTAR :)")
+    console.warn("A callback message fired after Ok button is pressed :)")
 }
 
 function mostrarTextoCapturado(texto) {
-    console.log("Texto capturado: " + texto)
+    console.log("Typed text: " + texto)
 }
 
 btnDialog.addEventListener("click", ()=> { 
     const dialogParams = {
-        title: "Diálogo estándar",
-        text: "Esto es un cuadro de diálogo estándar. Sé conciso con lo que quieres informar.",
+        title: "Standard dialog",
+        text: "This is a standar dialog. Be simple with the message.",
         buttonText: "Aceptar",
     }
     Dialog.alert(dialogParams)
@@ -21,10 +21,10 @@ btnDialog.addEventListener("click", ()=> {
 
 btnConfirm.addEventListener("click", ()=> {
     const confirmParams = {
-        title: "Cuadro de Confirmación",
-        text: "Este cuadro de diálogo de confirmación dispara una función enviada por referencia cuando se pulsa el botón 'ACEPTAR'.",
-        defaultButtonText: "Aceptar",
-        cancelButtonText: "Cancelar",
+        title: "Confirm dialog",
+        text: "This confirm dialog fires a function specified by reference when you press Ok button.",
+        defaultButtonText: "Ok",
+        cancelButtonText: "Cancel",
         callBackFn: mostrarMensajeCallback
     }
     Dialog.confirm(confirmParams)
@@ -32,11 +32,11 @@ btnConfirm.addEventListener("click", ()=> {
 
 btnPrompt.addEventListener("click", ()=> {
     const promptParams = {
-        title: "Cuadro de Entrada",
-        text: "Ingrese un valor en la siguiente caja de texto:",
-        placeholderInput: "Esperando un valor...",
-        confirmButtonText: "Confirmar",
-        cancelButtonText: "Deshacer",
+        title: "Input dialog",
+        text: "Add a text into the input box:",
+        placeholderInput: "Waiting for a value...",
+        confirmButtonText: "Ok",
+        cancelButtonText: "Cancel",
         callBackFn: mostrarTextoCapturado
     }
     Dialog.prompt(promptParams)
