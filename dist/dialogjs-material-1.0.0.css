@@ -1,0 +1,102 @@
+/* CSS FILE THAT COMPLEMENTS TO Dialog-JS library - Copyright 2024 - Fernando Omar Luna - @mobilepadawan */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+dialog#myDialog {
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 140px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 14px;
+    max-width: 460px;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+dialog#myDialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+dialog#myDialog h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #424242;
+}
+
+dialog#myDialog p {
+    color: #616161;
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+dialog#myDialog input {
+    width: 94%;
+    height: 24px;
+    margin-bottom: 14px;
+    padding: 12px 10px;
+    border: none;
+    border-bottom: .5px solid #bdbdbd;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+input::placeholder {
+    font-weight: lighter;
+    color: #c7c7c7;
+}
+
+dialog#myDialog .button-container {
+    text-align: right;
+}
+
+dialog#myDialog .button {
+    width: 130px;
+    height: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-primary {
+    background-color: white;
+    color: #6721f3;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.button-primary:hover {
+    color: #6721f3;
+}
+
+.button-primary:active {
+    transition: .3s ease-in;
+    background-color: #4c00e496;
+    color: white;
+}
+
+.button-secondary {
+    background-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: transparent;
+    color: #6721f3;
+}
+
+.button-secondary:hover {
+    transition: .3s ease-in;
+}
+
+.button-secondary:active {
+    background-color: #42424274;
+    color: white;
+}
