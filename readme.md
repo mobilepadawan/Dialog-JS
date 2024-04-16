@@ -10,7 +10,7 @@ Please visit [Dialog-JS website](https://mobilepadawan.github.io/Dialog-js/) for
     * [Dialog Alert](#dialogalert)
     * [Dialog Confirm](#dialogconfirm)
     * [Dialog Prompt](#dialogprompt)
-2) [Styles](#styles)
+2) [CSS Styles](#styles)
 3) [About](#about)
 
 ### Setup the library
