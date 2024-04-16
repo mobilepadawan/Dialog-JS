@@ -17,9 +17,11 @@ Please visit [Dialog-JS website](https://mobilepadawan.github.io/Dialog-js/) for
 To use `Dialog-JS` in your project, you can simply include the `Dialog-JS.1.0.0.min.js` and `dialogjs-default-1.0.0.min.css` files in your HTML file as part of the `<head>` HTML document section. Remember to fix the route of the files in the path.
 
 ```HTML
-<script src="Dialog-JS.1.0.0.min.js"></script>
 <link rel="stylesheet" href="dialogjs-default-1.0.0.min.css">
+<script src="Dialog-JS.1.0.0.min.js"></script>
 ```
+
+If you optimize the HTML load time, you can add the `defer` attribute in the `script`declaration without move this to the bottom of a HTML page.
 
 PS: Check in the [CSS Styles](#css-styles) section another couple of styles available as a replace of the default CSS style of this JS Library.
 
