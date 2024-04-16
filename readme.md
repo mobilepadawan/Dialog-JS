@@ -26,7 +26,7 @@ If you want to optimize the HTML loading time ⏳ you can add the `defer` attrib
 PS: Check in the [CSS Styles](#css-styles) section another couple of styles available as a replace of the default CSS style of this JS Library.
 
 ### Dialog.alert()
-Create an alert dialog with a custom title, message, and button text by passing a literal object with each property expected. Do not forget to declare any property.
+It creates an alert dialog with a custom title, message, and button text by passing a literal object with each property expected. Do not forget to declare any property.
 
 ```javascript
 Dialog.alert({
@@ -37,7 +37,7 @@ Dialog.alert({
 ```
 
 ### Dialog.confirm()
-Create a confirmation dialog with a custom title, message, and the text of the buttons for confirmation and cancellation. You can also specify a callback function to execute when the confirmation button is clicked.
+It creates a confirmation dialog with a custom title, message, and the text of the buttons for confirmation and cancellation. You can also specify a callback function to execute when the confirmation button is clicked.
 
 ```javascript
 Dialog.confirm({
@@ -53,7 +53,7 @@ Dialog.confirm({
 
 ### Dialog.prompt()
 
-Create a prompt dialog with a custom title, message, input placeholder, and buttons for confirmation and cancellation. You can also specify a callback function to receive the input value when confirmed.
+It creates a prompt dialog with a custom title, message, input placeholder, and buttons for confirmation and cancellation. You can also specify a callback function to receive the input value when confirmed.
 
 ```javascript
 Dialog.prompt({
