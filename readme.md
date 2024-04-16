@@ -21,7 +21,7 @@ To use `Dialog-JS` in your project, you can simply include the `Dialog-JS.1.0.0.
 <script src="Dialog-JS.1.0.0.min.js"></script>
 ```
 
-If you optimize the HTML load time, you can add the `defer` attribute in the `script`declaration without move this to the bottom of a HTML page.
+If you want to optimize the HTML loading time ⏳ you can add the `defer` attribute in the `script`declaration without moving this line to the bottom of a HTML page.
 
 PS: Check in the [CSS Styles](#css-styles) section another couple of styles available as a replace of the default CSS style of this JS Library.
 
