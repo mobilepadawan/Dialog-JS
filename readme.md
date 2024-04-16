@@ -21,6 +21,7 @@ To use `Dialog-JS` in your project, you can simply include the `Dialog-JS.1.0.0.
 <link rel="stylesheet" href="dialogjs-default-1.0.0.min.css">
 ```
 
+PS: Check in the [CSS Styles](#styles) section another couple of styles available as a replace of the default CSS style of this JS Library.
 
 ### Dialog.alert()
 Create an alert dialog with a custom title, message, and button text by passing a literal object with each property expected. Do not forget to declare any property.
