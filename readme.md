@@ -10,7 +10,7 @@ Please visit [Dialog-JS website](https://mobilepadawan.github.io/Dialog-js/) for
     * [Dialog Alert](#dialogalert)
     * [Dialog Confirm](#dialogconfirm)
     * [Dialog Prompt](#dialogprompt)
-2) [CSS Styles](#styles)
+2) [CSS Styles](#css-styles)
 3) [About](#about)
 
 ### Setup the library
@@ -66,7 +66,7 @@ Dialog.prompt({
 });
 ```
 
-## Styles
+## CSS Styles
 The CSS file linked to this JS library has a couple of alternatives to implement with the Dialog windows CSS styles similar to another frameworks or operating systems.
 * `dialogjs-bootstrap-1.0.0.min.css`
 * `dialogjs-material-1.0.0.min.css`
