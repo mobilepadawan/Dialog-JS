@@ -1,7 +1,7 @@
 # ‼️
 ## Dialog JS library is Deprecated
 
-### Please, visit the new version of this library at: (DialogJS 2.0)[https://github.com/mobilepadawan/Dialog-JS2].
+### Please, visit the new version of this library at: [DialogJS 2.0](https://github.com/mobilepadawan/Dialog-JS2).
 
 ~~# Dialog-JS library~~
 ~~Dialog-JS is a lightweight JavaScript library for creating customizable dialog boxes to replace standard JavaScript dialogs (alert, prompt, confirm) with more flexible and styled options. It provides easy-to-use methods to create dialogs with custom titles, messages, buttons, and callbacks.~~
