@@ -1,4 +1,4 @@
-# Dialog-JS library
+~~ # Dialog-JS library ~~
 Dialog-JS is a lightweight JavaScript library for creating customizable dialog boxes to replace standard JavaScript dialogs (alert, prompt, confirm) with more flexible and styled options. It provides easy-to-use methods to create dialogs with custom titles, messages, buttons, and callbacks.
 
 Dialog-JS also allows developers to integrate their own CSS styles to customize the appearance of the dialogs according to their project needs.
